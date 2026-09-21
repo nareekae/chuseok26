@@ -31,7 +31,8 @@ const SPRITE_NAMES =
    "Shell12.png", 
    "Shell13.png", 
    "Shell14.png", 
-   "Shell15.png"];
+   "Shell15.png",
+   "Shell16.png"];
 
 let spriteImgs = [];
 let cornerTL, cornerBR;
