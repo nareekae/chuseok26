@@ -29,14 +29,14 @@ let sprites = [];
 let leftHandPusher, rightHandPusher, nosePusher;
 
 const CFG = {
-  spriteCount: 40,
-  spriteScaleMin: 0.1,
-  spriteScaleMax: 0.5,
+  spriteCount: 80,
+  spriteScaleMin: 0.2,
+  spriteScaleMax: 0.8,
   airFriction: 0.05,
   restitution: 0.85,
   gravityY: 0.001,
-  pusherRadiusHand: 70,
-  pusherRadiusNose: 85,
+  pusherRadiusHand: 100,
+  pusherRadiusNose: 140,
   poseConfidence: 0.15,
   showDebugPushers: false,
   showDebugText: false,
