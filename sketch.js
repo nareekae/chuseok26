@@ -29,7 +29,7 @@ let sprites = [];
 let leftHandPusher, rightHandPusher, nosePusher;
 
 const CFG = {
-  spriteCount: 16,
+  spriteCount: 40,
   spriteScaleMin: 0.5,
   spriteScaleMax: 0.9,
   airFriction: 0.05,
