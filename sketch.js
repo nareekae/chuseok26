@@ -108,7 +108,7 @@ async function loadAllAssets() {
     }
   }
   {
-    const p = ASSET_BASE + "LNY.png";
+    const p = ASSET_BASE + "Chuseok.png";
     const res = await loadImageAsync(p);
     if (res.ok) {
       cornerBR = res.img;
