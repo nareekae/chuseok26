@@ -1,4 +1,4 @@
-/*
+l/*
   MAL Projection — GitHub Pages bulletproof version
 
   Fixes:
@@ -15,7 +15,7 @@ let poses = [];
 let poseSystem = "none";
 
 let ASSET_BASE = null; // chosen at runtime
-const SPRITE_NAMES = ["Mal.png","Mal1.png","Mal2.png","Mal3.png","Mal4.png","Mal5.png","Mal6.png","Mal7.png","Mal8.png","Mal9.png"];
+const SPRITE_NAMES = ["Shell1.png","Shell2.png","Shell3.png","Shell4.png","Kelp1.png","Kelp2.png","Kelp3.png","Kelp4.png""];
 
 let spriteImgs = [];
 let cornerTL, cornerBR;
@@ -69,7 +69,7 @@ async function pickAssetBase() {
   ];
 
   // Probe a file you definitely have:
-  const probeName = "Mal.png";
+  const probeName = "Shell.png";
   for (const base of candidates) {
     const probeUrl = new URL(base + probeName, window.location.href).href;
     console.log("🔎 Probing:", probeUrl);
