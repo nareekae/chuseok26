@@ -1,5 +1,5 @@
-l/*
-  MAL Projection — GitHub Pages bulletproof version
+/*
+  Chuseok26 — GitHub Pages bulletproof version
 
   Fixes:
   - Auto-detect GitHub Pages base path (no hardcoded /mal_Projection/)
