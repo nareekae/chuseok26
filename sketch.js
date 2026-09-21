@@ -15,7 +15,23 @@ let poses = [];
 let poseSystem = "none";
 
 let ASSET_BASE = null; // chosen at runtime
-const SPRITE_NAMES = ["Shell.png","Shell1.png","Shell2.png","Shell3.png","Shell4.png","Shell5.png","Shell6.png","Shell7.png", "Shell8.png"];
+const SPRITE_NAMES = 
+  ["Shell.png",
+   "Shell1.png",
+   "Shell2.png",
+   "Shell3.png",
+   "Shell4.png",
+   "Shell5.png",
+   "Shell6.png",
+   "Shell7.png", 
+   "Shell8.png", 
+   "Shell9.png", 
+   "Shell10.png", 
+   "Shell11.png", 
+   "Shell12.png", 
+   "Shell13.png", 
+   "Shell14.png", 
+   "Shell15.png"];
 
 let spriteImgs = [];
 let cornerTL, cornerBR;
