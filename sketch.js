@@ -47,9 +47,9 @@ let leftHandPusher, rightHandPusher, nosePusher;
 const CFG = {
   spriteCount: 30,
   spriteScaleMin: 0.1,
-  spriteScaleMax: 0.65,
+  spriteScaleMax: 0.5,
   airFriction: 0.01,
-  restitution: 0.85,
+  restitution: 0.5,
   gravityY: 0.002,
   pusherRadiusHand: 100,
   pusherRadiusNose: 100,
